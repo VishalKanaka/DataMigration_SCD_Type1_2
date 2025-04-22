@@ -1,0 +1,9 @@
+{
+	"name": "VishalDfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "df811b38-4de7-476f-8e3d-75be555a06f1",
+		"tenantId": "fcee7905-be7c-4a7c-b3f6-7c94700f97cb"
+	}
+}
