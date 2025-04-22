@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "VishalDfactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsgen2vishal.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://KeyVaultKanaka.vault.azure.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "vishalsqlserver1.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "VishalDB"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "vishal"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\Users\\Vishal KM\\Documents"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "Vishal KM"
+		}
+	}
+}
